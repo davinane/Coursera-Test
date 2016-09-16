@@ -1,0 +1,74 @@
+body {
+  font-size: 16px;
+  font-family: 'Comic Sans MS';
+}
+
+/** HEADER **/
+
+header {
+	margin-bottom: 60px;
+}
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border-bottom: 3px solid black;
+}
+
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Comic Sans MS', serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #220;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-collapse {
+	border: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: #fff
+}
+#nav-list a {
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+  background-color: gray;
+}
+
+/** END OF HEADER **?
+
+/* BODY CONTENT */
+
+#menu-title{
+	margin-bottom: 30px;
+}
+#menu-title h2{
+	font-weight: bold;
+}
+#menu-detail{
+	background-color: gray;
+	overflow: hidden;
+}
+
+#menu-detail h3{
+	font-weight: bold;
+}
