@@ -13,9 +13,6 @@ header {
   border-radius: 0;
   border-bottom: 3px solid black;
 }
-
-
-
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Comic Sans MS', serif;
   color: #000;
@@ -36,6 +33,10 @@ header {
 }
 
 #nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list {
   margin-top: 10px;
   background-color: #fff
 }
@@ -54,6 +55,11 @@ header {
   background-color: gray;
 }
 
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
 /** END OF HEADER **?
 
 /* BODY CONTENT */
@@ -64,11 +70,32 @@ header {
 #menu-title h2{
 	font-weight: bold;
 }
-#menu-detail{
+.menu-detail{
 	background-color: gray;
-	overflow: hidden;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
 }
 
-#menu-detail h3{
-	font-weight: bold;
+.menu-detail p{
+	height: auto;
+}
+
+.panel-footer {
+	background-color: white;
+	border: 1px solid black;
+}
+
+.return-top{
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
+.return-top a{
+		text-decoration: none;
+		color: red;
+}
+.return-top a:hover{
+		color: pink;
 }
